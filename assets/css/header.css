@@ -1,0 +1,316 @@
+h4 {
+	font-family: 'Kaushan Script', cursive;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	font-size: 40px;
+}
+
+.navbar {
+	height: 80px;
+}
+
+
+.navbar .logout {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #38374D;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.navbar .logout:hover {
+	color: white;
+	background-color: #38374D;
+}
+
+.menu {
+	font-size: 20px;
+}
+
+.boxSatu {
+	padding-top: 70px;
+	text-align: center;
+	font-size: 60px;
+}
+
+#ucapan {
+	position: absolute;
+	top: 20px;
+	z-index: 2;
+	color: #fff;
+	margin-left: 20px;
+	font-size: 50px;
+	font-family: 'Caveat', cursive;
+}
+
+
+.boxSatu p {
+	font-family: 'Caveat', cursive;
+}
+
+.tomPertama {
+	margin-bottom: 50px;
+	font-size: 20px;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+h3 {
+	font-family: 'Caveat', cursive;
+	font-size: 40px;
+}
+
+.tomPertama:hover,
+.cariData:hover {
+	background-color: transparent;
+}
+
+
+.pasien .vektor img {
+	position: absolute;
+	width: 529px;
+	height: 489px;
+	left: 859px;
+	top: 20px;
+	border: 0ch;
+}
+
+.pasien table {
+	position: absolute;
+	width: 900px;
+	margin-left: 20px;
+}
+
+.pasienTambah img {
+	border: 0pt;
+	position: relative;
+	width: 700px;
+	height: 423px;
+	right: 80px;
+	top: 179px;
+	margin-left: 120px;
+}
+
+
+.pasienTambah .daftar {
+	padding-right: 200px;
+}
+
+.pasienDetail .card p {
+	margin-bottom: 0pt;
+}
+
+.pasienDetail .card-header {
+	font-size: 50px;
+}
+
+.pasienDetail .vektor img {
+	position: absolute;
+	width: 529px;
+	height: 489px;
+	top: 20px;
+	border-color: white;
+	border: 0cm;
+}
+
+.pasienDetail .body img {
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+}
+
+.pasienDetail .card-header {
+	background-color: #38374D;
+	color: #ffc107;
+}
+
+.dokterDetail .body img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+	height: 100px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #38374D;
+}
+
+.dokterDetail .vektor img {
+	position: absolute;
+	width: 529px;
+	height: 489px;
+	top: 20px;
+	border-color: white;
+	border: 0cm;
+}
+
+.dokterDetail .card-header {
+	background-color: #38374D;
+	color: #ffc107;
+}
+
+.obat img {
+	width: 100px;
+	height: 100px;
+}
+
+.recent img {
+	border: 0ch;
+	position: absolute;
+}
+
+.recent h5 {
+	font-family: 'Caveat', cursive;
+}
+
+.obat .card a {
+	width: 50px;
+	height: 30px;
+	padding-top: 7px;
+}
+
+.obat .card-header {
+	background-color: #38374D;
+	color: #ffc107;
+}
+
+.dokter .card img {
+	width: 100px;
+	height: 100px;
+	border-style: solid;
+	border-width: 2px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-color: #38374D;
+}
+
+.dokter .card {
+	border-color: #ffc107;
+	border-width: 2px;
+	border-radius: 20px;
+	color: white;
+	background-color: #38374D;
+	height: 320px;
+	width: 240px;
+}
+
+.dokter .card a {
+	width: 55px;
+	font-size: 15px;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+.waktuDokter img {
+	border: 0px;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+	.boxSatu {
+		font-size: 40px;
+		padding-top: 60px;
+	}
+
+	.tomPertama {
+		font-size: 15px;
+	}
+
+	.row input {
+		height: 30px;
+	}
+
+	.row button {
+		font-size: 15px;
+	}
+
+	#ucapan {
+		font-size: 40px;
+		margin-left: 5px;
+	}
+
+	.obat .vektor img {
+		display: none;
+		visibility: hidden;
+	}
+
+
+}
+
+@media screen and (max-width: 920px) {
+	.pasienTambah .vektor {
+		display: none;
+		visibility: hidden;
+	}
+}
+
+
+@media screen and (max-width: 890px) {
+	.boxSatu {
+		font-size: 30px;
+		padding-top: 20px;
+	}
+
+	.row input {
+		height: 30px;
+	}
+
+	.row button {
+		padding: 5px;
+	}
+
+	#ucapan {
+		top: 5px;
+	}
+
+	.waktuDokter .vektor {
+		display: none;
+		visibility: hidden;
+	}
+
+
+
+}
+
+/* index pasien */
+@media screen and (max-width: 800px) {
+	.pasien .vektor img {
+		display: none;
+		visibility: hidden;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	.pasien table {
+		width: 500px;
+		margin-right: 10px;
+	}
+
+	.pasienTambah .daftar {
+		padding-right: 20px;
+	}
+}
+
+@media screen and (max-width: 736px) {
+	.boxSatu {
+		padding-top: 20px;
+	}
+
+	#ucapan {
+		top: 0px;
+		font-size: 20px;
+	}
+
+	.boxSatu a {
+		font-size: 10px;
+		margin-bottom: 20px;
+	}
+
+	.boxSatu p {
+		margin-bottom: 2px;
+		font-size: 20px;
+	}
+}
